@@ -1,0 +1,117 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    height: 100%;
+}
+
+h1{
+    color:  hsl(0, 0%, 100%);
+    text-align: left;
+    font-size: 2rem;
+}
+
+p{
+    color: hsl(217, 12%, 63%);
+    text-align: left;
+    font-size: 15px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: 50%;
+    color:  hsl(0, 0%, 100%);
+    text-align: center;
+    text-decoration: none;  
+}
+
+
+.ratings_button{
+    color:  hsl(0, 0%, 100%);
+    background-color: hsl(216, 12%, 54%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.ratings_button:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+}
+
+.ratings{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%);
+    width: 30%;
+    height: 50%;
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+
+/* Thank you HTML */
+
+.ty_container{
+    background-color: hsl(213, 19%, 18%);
+    width: 30%;
+    height: 60%;
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    text-align: center;
+}
+
+.selection{
+    background-color: hsl(198, 10%, 25%);
+    color: hsl(25, 97%, 53%);
+    width: max-content;
+    padding: .5rem;
+    border-radius: 3rem;
+    margin-left: 20%;
+   
+}
+
+.text{
+    margin: 2rem;
+    padding: .5%;
+    text-align: center;
+}
+
+.ty_h1{
+    margin: 1rem;
+    padding: .5%;
+    text-align: center;
+}
+
+.ty_img{
+    display: flexbox;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+
+/* Visibility Attirbutes */
+
+.indexHidden {
+    display: none;
+}
+
+.thankYouHidden{
+    display: none;
+}
