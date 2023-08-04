@@ -15,3 +15,4 @@ Once the user clicked on the rating they have chosen, I used Javascript to chang
 
 <img width="576" alt="Screenshot 2023-08-04 at 19 02 44" src="https://github.com/lesliemw/Ratings_Project/assets/114259884/d243972c-b25c-4a77-a4f6-35e0da8810fd">
 
+**Thank you to FrontEnd Mentor for supplying the idea for the project, and for some of the starting files.**
